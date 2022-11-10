@@ -1,0 +1,31 @@
+<body bgcolor=#cccccc><center><br><br><br><br><br>
+
+<table border=2 margin=1000px>
+<tr><div class="mydiv">
+<td><input type="text" id=msg1 /><button onclick=func1()>convert</button></td>
+<td id="content1">██</td><br>
+</tr></div>
+<tr><div class="mydiv">
+<td><input type="text" id=msg2 /><button onclick=func2()>convert</button>
+<td id="content2">██</td><br>
+</tr></div>
+<tr><div class="mydiv">
+<td><input type="text" id=msg3 /><button onclick=func3()>convert</button>
+<td id="content3">██</td><br>
+</tr></div>
+</table></div>
+
+<script>
+function func1(){
+document.getElementById("content1").innerHTML="█"+
+document.getElementById("msg1").value+"█"}
+
+function func2(){
+document.getElementById("content2").innerHTML="█"+
+document.getElementById("msg2").value+"█"}
+
+function func3(){
+document.getElementById("content3").innerHTML="█"+
+document.getElementById("msg3").value+"█"}
+
+</script></center></body>
